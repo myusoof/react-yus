@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 1fr 10fr auto;
+    background-color: wheat;
+    gap: 1px;
+    height: 100vh;
+    background-color: white;
+}
+
+.item {
+    border: 1px solid black;
+    justify-items: center;
+}
+.item1 {
+    background-color: green;
+}
+.item2 {
+    background-color: orange;
+}
+.item3 {
+    background-color: white;
+}
+.item4 {
+    background-color: grey;
+}
+.grid-item-1 {
+    grid-column-start: 1;
+
+} 
